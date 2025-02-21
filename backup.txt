@@ -1,0 +1,81 @@
+<div class="hero my-lg-5">
+        <div class="hero-overlay d-flex">
+            <div class="hero-logo d-flex justify-content-center align-items-center">
+                <img src="img/logo-bento-kopi.png" alt="Logo" />
+            </div>
+            <div class="hero-tagline d-flex justify-content-center align-items-center">
+                <h1>#bentokopi</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi saepe
+                    tempore reiciendis ducimus, voluptatem rem similique veritatis
+                    consequuntur totam minima?
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+.hero {
+    position: relative;
+    background-image: url('./img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.hero-logo img {
+    max-width: 20vw;
+    height: auto;
+    background-color: white;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.hero-tagline {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0px 20px;
+}
+
+.hero-tagline h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-tagline p {
+    text-align: center;
+}

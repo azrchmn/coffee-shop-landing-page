@@ -1,0 +1,263 @@
+* {
+    font-family: Poppins;
+}
+
+.title-logo {
+    font-weight: bolder;
+}
+
+.title-logo strong {
+    color: #006d40;
+}
+
+.navbar-brand img {
+    max-height: 5vw;
+    width: auto;
+}
+
+.navbar-brand p {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-left: .75rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #006d40;
+}
+
+.nav-link.active {
+    color: #006d40 !important;
+}
+
+.carousel-item {
+    height: 80vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #006d40;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* .carousel-caption span {
+    color: #006d40
+} */
+
+.highlights {
+    font-size: 2rem;
+    /*16x2 = 32*/
+    z-index: 1;
+    position: relative;
+}
+
+.highlights h1 {
+    font-size: 1.25em;
+}
+
+.highlights h3 {
+    font-size: .75em;
+}
+
+.highlights p {
+    font-size: .5em;
+}
+
+.icon {
+    background-color: #006d40;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    padding: .5em;
+    margin-bottom: .5em;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.card-img-top {
+    object-fit: cover !important;
+    object-position: center !important;
+    height: 30vh !important;
+    margin-top: 10px;
+}
+
+
+.hero {
+    position: relative;
+    z-index: -2;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0% 0% #006d40;
+    font-size: 12px;
+    color: #CCC;
+    text-align: center;
+    box-shadow: inset 0px 1px 100px rgba(0, 0, 0, 0.5),
+        inset 0px -1px 100px rgba(0, 0, 0, 0.5);
+}
+
+.hero-fixed {
+    position: fixed;
+    z-index: 1;
+    /* left: 50%; */
+    bottom: 110px;
+    /* margin-left: -400px; */
+    width: 100%;
+    list-style: outside none none;
+    text-align: center;
+    display: flex;
+
+}
+
+.hero-logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.hero-logo img {
+    max-width: 20vw;
+    height: auto;
+}
+
+.hero-tagline {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0px 50px;
+}
+
+.hero-tagline h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-tagline p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.test-1 {
+    background-color: aqua;
+}
+
+.test-2 {
+    background-color: blueviolet;
+}
+
+
+
+/* breakpoints sm */
+@media (max-width: 767px) {
+    .navbar-brand p {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .carousel-item {
+        height: 70vh;
+        /* Sesuaikan nilai ini sesuai kebutuhan */
+    }
+
+    .hero-tagline h1 {
+        font-size: 2rem;
+    }
+
+    .highlights h1 {
+        font-size: 1em;
+    }
+
+    .highlights h3 {
+        font-size: .75em;
+    }
+
+    .highlights p {
+        font-size: .5em;
+    }
+}
+
+
+/* breakpoints <sm */
+@media (max-width: 575px) {
+    .navbar-brand p {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: .75rem;
+    }
+
+    .carousel-item {
+        height: 50vh;
+        /* Sesuaikan nilai ini sesuai kebutuhan */
+    }
+
+    .highlights h1 {
+        font-size: 1em;
+    }
+
+    .highlights h3 {
+        font-size: .5em;
+    }
+
+    .highlights p {
+        font-size: .5em;
+        display: none;
+    }
+
+    .icon {
+        font-size: .75em;
+        padding: .5em;
+    }
+
+    .hero {
+        height: 30vh;
+    }
+
+    .hero-logo {
+        width: 100%;
+        border-right: none;
+    }
+
+    .hero-tagline {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .hero-tagline h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}
